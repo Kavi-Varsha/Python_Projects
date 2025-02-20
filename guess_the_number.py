@@ -1,3 +1,20 @@
+'''🎯 Guess the Number Game
+Description:
+The "Guess the Number" game is a simple yet addictive Python project where the computer randomly generates a number between 1 and 100. The player has 7 chances to guess the correct number.
+
+How to Play:
+
+The computer picks a random number between 1 and 100.
+The player enters their guess.
+The game provides feedback:
+If the guess is too high, it tells you to guess lower.
+If the guess is too low, it suggests guessing higher.
+If the guess is correct, it celebrates your win! 🎉
+The player gets a maximum of 7 attempts to guess the number.
+'''
+
+
+
 import random
 
 while True:
