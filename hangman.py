@@ -2,7 +2,7 @@ import random
 
 # Function to restart the game
 def play_game():
-    l = ["hello", "mango", "orange"]
+    words = ["hello", "mango", "orange", "python", "elephant", "giraffe", "sunflower", "butterfly", "keyboard", "mountain"]
     word = random.choice(l)
     guess = 0
     attempt = len(word) + 2
