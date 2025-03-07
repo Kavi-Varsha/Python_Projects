@@ -1,3 +1,25 @@
+"""
+Tic Tac Toe Game
+================
+A console-based Tic Tac Toe game implemented in Python.
+
+Overview:
+---------
+- Two players take turns placing their marks (X and O) on a 3x3 board.
+- The game checks for wins (three in a row horizontally, vertically, or diagonally).
+- The game ends when one player wins or the board is full (resulting in a draw).
+
+Usage:
+------
+Run this script in a Python 3 environment. Follow the on-screen prompts to make moves.
+
+Future Enhancements:
+--------------------
+- Option to play against a simple computer AI.
+- Graphical user interface using Tkinter.
+
+"""
+
 
 def tic_tac_toe():
     board = [[" " for _ in range(3)] for _ in range(3)]
